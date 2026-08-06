@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Enterprises</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">App Enterprises</div>
+    <h1>Choose a business</h1>
+    <p>Three companies, one family of businesses. Pick where you'd like to go.</p>
+  </header>
+
+  <main>
+    <div class="grid">
+      <a class="card" href="../pressure-washing/index.html">
+        <div class="icon">💧</div>
+        <h2>Pressure Washing</h2>
+        <p>Residential &amp; commercial cleaning services</p>
+      </a>
+
+      <a class="card" href="../sales-consignments-rentals/index.html">
+        <div class="icon">🏷️</div>
+        <h2>Sales, Consignments &amp; Rentals</h2>
+        <p>Buy, consign, or rent from our represented brands</p>
+      </a>
+
+      <a class="card" href="../design/index.html">
+        <div class="icon">🛠️</div>
+        <h2>Design Studio</h2>
+        <p>Custom audio, metal fabrication &amp; upholstery</p>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> App Enterprises. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
