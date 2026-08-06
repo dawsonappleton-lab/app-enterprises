@@ -2,27 +2,26 @@
 
 Four static websites for the App Enterprises family of businesses.
 
-## Structure
+## Sites & domains
 
-- `landing/` — hub page with 3 cards linking to each business site.
-- `pressure-washing/` — Home, Gallery, Contact.
-- `sales-consignments-rentals/` — Home, Sales (with subtabs for each represented brand), Consignments, Rentals, Contact.
-- `design/` — Home, Audio, Metal Fab, Upholstery & Refurbishment, Contact.
+- `landing/` — "Dispatch Board" hub page → **app-enterprises.com**. Real design, links to the 3 businesses below.
+- `pressure-washing/` — Home, Gallery, Contact → **app-pressurewashing.com**
+- `sales-consignments-rentals/` — Home, Sales (with subtabs for each represented brand), Consignments, Rentals, Contact → **app-salesrentals.com**
+- `customs/` — Home, Audio, Metal Fab, Upholstery & Refurbishment, Contact → **app-customs.com**
 
-Each site is plain HTML/CSS/JS with no build step, so any of them can be opened directly in a browser or deployed independently (e.g. as separate GitHub Pages / Netlify sites) later.
+Each site is plain HTML/CSS/JS with no build step. In this repo they live as sibling folders, but each is meant to be deployed to the root of its own domain above — so cross-site links use the full domain (e.g. the footer "App Enterprises" link points at `https://app-enterprises.com`, not a relative path), while links *within* a site stay relative.
 
-## Status: placeholder content
+## Status
 
-None of the real branding was available when this scaffold was created, so every site currently uses:
+- `landing/` uses the real design and copy you provided, wired up to the real domains.
+- `pressure-washing/`, `sales-consignments-rentals/`, and `customs/` still use placeholder content:
+  - Placeholder business names, copy, and sample "brand" tabs on the Sales page (currently "Brand One/Two/Three").
+  - Placeholder color palettes (blue for pressure washing, green for sales/consignments/rentals — `customs/` still needs to be restyled to match the landing page's industrial palette).
+  - Placeholder photo tiles (dashed boxes) instead of real images.
 
-- Placeholder business names, copy, and sample "brand" tabs on the Sales page.
-- Placeholder color palettes (blue for pressure washing, green for sales/consignments/rentals, amber/brown for design).
-- Placeholder photo tiles (dashed boxes) instead of real images.
+**Still needed:**
 
-**To finish these sites, still needed:**
-
-1. Logos for all 4 sites.
-2. Final color palettes / brand guidelines for each site.
-3. Real landing page copy/design (the "attached" landing code referenced in the original request never made it into this session — please paste the code or re-share the file).
-4. Real business names, contact info, and photos for each site.
-5. Actual names of the brands represented on the Sales page (currently "Brand One/Two/Three").
+1. Logos for the 3 business sites (landing page has no logo, just wordmark).
+2. Color palettes for `pressure-washing/`, `sales-consignments-rentals/`, and `customs/` — likely should echo the landing page's industrial palette (ink/panel/concrete/steel/amber/rust).
+3. Real business names, contact info, and photos for each site.
+4. Actual names of the brands represented on the Sales page.
