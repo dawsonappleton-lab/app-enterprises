@@ -13,11 +13,12 @@ Each site is plain HTML/CSS/JS with no build step. In this repo they live as sib
 
 ## Status
 
-- `landing/` uses the real design and copy you provided, wired up to the real domains.
-- `pressure-washing/`, `sales-consignments-rentals/`, and `customs/` now use color palettes matched to their real badge logos (black + icy blue, black + bronze, black + red, respectively), and nav/hero copy updated to match each badge's category list. They still use placeholder body copy, sample "brand" tabs on the Sales page (currently "Brand One/Two/Three"), and placeholder photo tiles (dashed boxes) instead of real images.
+- `landing/` uses the real design and copy you provided, wired up to the real domains, with the real App Enterprises logo (`landing/assets/logo.svg`) in place of the text wordmark.
+- `pressure-washing/`, `sales-consignments-rentals/`, and `customs/` now use color palettes matched to their real badge logos (black + icy blue, black + bronze, black + red, respectively), nav/hero copy updated to match each badge's category list, and the real logo (`<site>/assets/logo.svg`) in the nav bar of every page. They still use placeholder body copy, sample "brand" tabs on the Sales page (currently "Brand One/Two/Three"), and placeholder photo tiles (dashed boxes) instead of real photos.
+
+**Note on the logo files:** the SVGs are large (300 KB – 1 MB each) because they were produced by auto-tracing a raster/photorealistic design into thousands of small vector paths, rather than being drawn as clean flat vector art — that's also why they can look "grainy" up close (lots of tiny path segments approximating shading, instead of smooth flat shapes). They render fine in the browser, but if page-load size ever matters, consider re-exporting a simplified flat version or serving a PNG.
 
 **Still needed:**
 
-1. The actual logo image files (PNG/SVG). The 4 badge logos were shared as images in chat, but images sent inline aren't saved to disk in this environment the way an uploaded file is — please attach them as files so they can be added as real `<img>` assets instead of text/emoji lockups.
-2. Real business names/copy, contact info, and photos for each site.
-3. Actual names of the brands represented on the Sales page.
+1. Real business names/copy, contact info, and photos for each site.
+2. Actual names of the brands represented on the Sales page.

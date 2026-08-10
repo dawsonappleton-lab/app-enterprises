@@ -44,6 +44,8 @@ a { color: inherit; }
   font-size: 1.15rem;
   text-decoration: none;
   color: var(--text);
+  display: flex;
+  align-items: center;
 }
 
 .nav-links {
@@ -174,3 +176,9 @@ button[type="submit"]:hover { background: var(--accent-dark); }
 }
 
 .site-footer a { color: var(--accent); }
+
+.brand-logo {
+  height: 48px;
+  width: auto;
+  display: block;
+}
