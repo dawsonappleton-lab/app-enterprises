@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | App Luxe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">✨ APP Luxe</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>Our Work</h2>
+    <p class="lead">Placeholder tiles &mdash; replace with real campaign/brand work.</p>
+    <div class="gallery-grid">
+      <div class="gallery-item">Brand Launch Campaign</div>
+      <div class="gallery-item">Social Content Series</div>
+      <div class="gallery-item">Photo &amp; Video Shoot</div>
+      <div class="gallery-item">Rebrand Project</div>
+      <div class="gallery-item">Ad Campaign</div>
+      <div class="gallery-item">Event Coverage</div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    &copy; <span id="year"></span> APP Luxe &middot; <a href="https://app-enterprises.com">App Enterprises</a>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
