@@ -1,12 +1,12 @@
 :root {
-  --bg: #0c0808;
-  --surface: #171010;
-  --surface-2: #1d1414;
-  --text: #f5eeee;
-  --muted: #a68f8f;
-  --accent: #E2231A;
-  --accent-dark: #A8160F;
-  --border: #362020;
+  --bg: #0a0c0d;
+  --surface: #1b2020;
+  --surface-2: #232929;
+  --text: #f2f4f3;
+  --muted: #9aa3a3;
+  --accent: #B87840;
+  --accent-dark: #8A5A28;
+  --border: #313737;
 }
 
 * { box-sizing: border-box; }
@@ -61,7 +61,7 @@ a { color: inherit; }
 .nav-links a.active, .nav-links a:hover { color: var(--accent); }
 
 .hero {
-  background: linear-gradient(135deg, #180f0f 0%, #050303 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #050505 100%);
   border-bottom: 1px solid var(--border);
   color: #fff;
   padding: 4.5rem 1.5rem;
@@ -74,13 +74,13 @@ a { color: inherit; }
 .btn {
   display: inline-block;
   background: var(--accent);
-  color: #fff;
+  color: #1a1006;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
   margin: 0 0.4rem;
-  box-shadow: 0 0 24px rgba(226, 35, 26, 0.35);
+  box-shadow: 0 0 24px rgba(184, 120, 64, 0.35);
 }
 
 .section { max-width: 76rem; margin: 0 auto; padding: 3.5rem 1.5rem; }
@@ -116,7 +116,7 @@ a { color: inherit; }
 .gallery-item {
   aspect-ratio: 4 / 3;
   border-radius: 12px;
-  background: repeating-linear-gradient(45deg, #1a1212, #1a1212 10px, #201616 10px, #201616 20px);
+  background: repeating-linear-gradient(45deg, #1a1c1c, #1a1c1c 10px, #202323 10px, #202323 20px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,11 +147,11 @@ input, textarea, select {
   color: var(--text);
 }
 
-input::placeholder, textarea::placeholder { color: #6b5555; }
+input::placeholder, textarea::placeholder { color: #6b6459; }
 
 button[type="submit"] {
   background: var(--accent);
-  color: #fff;
+  color: #1a1006;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;

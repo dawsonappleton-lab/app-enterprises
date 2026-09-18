@@ -1,12 +1,12 @@
 :root {
-  --bg: #0c0a08;
-  --surface: #17130f;
-  --surface-2: #1d1712;
-  --text: #f3ede4;
-  --muted: #a99a86;
-  --accent: #D9962F;
-  --accent-dark: #A66A22;
-  --border: #332a20;
+  --bg: #0a0c0d;
+  --surface: #1b2020;
+  --surface-2: #232929;
+  --text: #f2f4f3;
+  --muted: #9aa3a3;
+  --accent: #B87840;
+  --accent-dark: #8A5A28;
+  --border: #313737;
 }
 
 * { box-sizing: border-box; }
@@ -67,7 +67,7 @@ a { color: inherit; }
 .nav-links a:hover { color: var(--accent); }
 
 .hero {
-  background: linear-gradient(135deg, #171310 0%, #050403 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #050505 100%);
   border-bottom: 1px solid var(--border);
   color: #fff;
   padding: 4.5rem 1.5rem;
@@ -86,7 +86,7 @@ a { color: inherit; }
   text-decoration: none;
   font-weight: 700;
   margin: 0 0.4rem;
-  box-shadow: 0 0 24px rgba(217, 150, 47, 0.3);
+  box-shadow: 0 0 24px rgba(184, 120, 64, 0.35);
 }
 
 .section {
@@ -159,7 +159,7 @@ a { color: inherit; }
 .item-card {
   aspect-ratio: 4 / 3;
   border-radius: 12px;
-  background: repeating-linear-gradient(45deg, #1a1510, #1a1510 10px, #201a13 10px, #201a13 20px);
+  background: repeating-linear-gradient(45deg, #1a1c1c, #1a1c1c 10px, #202323 10px, #202323 20px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -190,7 +190,7 @@ input, textarea, select {
   color: var(--text);
 }
 
-input::placeholder, textarea::placeholder { color: #6b5f4f; }
+input::placeholder, textarea::placeholder { color: #6b6459; }
 
 button[type="submit"] {
   background: var(--accent);

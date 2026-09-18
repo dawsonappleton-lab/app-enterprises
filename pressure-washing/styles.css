@@ -1,12 +1,12 @@
 :root {
-  --bg: #0a0e13;
-  --surface: #12181f;
-  --surface-2: #171e27;
-  --text: #eef4fa;
-  --muted: #8ba0b3;
-  --accent: #2FA9E8;
-  --accent-dark: #1C7FB5;
-  --border: #223140;
+  --bg: #0a0c0d;
+  --surface: #1b2020;
+  --surface-2: #232929;
+  --text: #f2f4f3;
+  --muted: #9aa3a3;
+  --accent: #B87840;
+  --accent-dark: #8A5A28;
+  --border: #313737;
 }
 
 * { box-sizing: border-box; }
@@ -68,7 +68,7 @@ a { color: inherit; }
 }
 
 .hero {
-  background: linear-gradient(135deg, #0d1720 0%, #050708 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #050505 100%);
   border-bottom: 1px solid var(--border);
   color: #fff;
   padding: 4.5rem 1.5rem;
@@ -89,12 +89,12 @@ a { color: inherit; }
 .btn {
   display: inline-block;
   background: var(--accent);
-  color: #051018;
+  color: #1a1006;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
-  box-shadow: 0 0 24px rgba(47, 169, 232, 0.35);
+  box-shadow: 0 0 24px rgba(184, 120, 64, 0.35);
 }
 
 .btn.outline {
@@ -149,7 +149,7 @@ a { color: inherit; }
 .gallery-item {
   aspect-ratio: 4 / 3;
   border-radius: 12px;
-  background: repeating-linear-gradient(45deg, #131b23, #131b23 10px, #171f28 10px, #171f28 20px);
+  background: repeating-linear-gradient(45deg, #1a1c1c, #1a1c1c 10px, #202323 10px, #202323 20px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,11 +189,11 @@ input, textarea {
   color: var(--text);
 }
 
-input::placeholder, textarea::placeholder { color: #56697a; }
+input::placeholder, textarea::placeholder { color: #6b6459; }
 
 button[type="submit"] {
   background: var(--accent);
-  color: #051018;
+  color: #1a1006;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;

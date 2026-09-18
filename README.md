@@ -14,15 +14,15 @@ Each site is plain HTML/CSS/JS with no build step. In this repo they live as sib
 
 ## Status
 
-- `landing/` uses the real design and copy you provided, wired up to the real domains (now including App Luxe as a 4th bay), with the real App Enterprises logo (`landing/assets/logo.svg`) in place of the text wordmark.
-- `pressure-washing/`, `sales-consignments-rentals/`, and `customs/` use color palettes matched to their real badge logos (black + icy blue, black + bronze, black + red, respectively), nav/hero copy updated to match each badge's category list, and the real logo (`<site>/assets/logo.svg`) in the nav bar of every page.
-- `app-luxe/` is newly scaffolded with placeholder branding (dark + gold/champagne accent) since no logo/colors have been provided for it yet.
+- All 5 sites now use the **real, unified logo set** (`<site>/assets/logo.png`) — gunmetal + bronze/copper, shared across every business instead of each having its own distinct color. This replaced an earlier logo/palette set where each business had a different accent color (blue/bronze/red/gold).
+- All 5 sites' color palettes (`styles.css` `:root` variables) were updated to match: `--bg: #0a0c0d`, `--surface: #1b2020`, `--accent: #B87840` (bronze), `--accent-dark: #8A5A28`, `--text: #f2f4f3`, `--muted: #9aa3a3`, `--border: #313737`.
+- The landing page keeps its original "Dispatch Board" design/structure as provided, with only its logo image and accent color (`--amber`) updated to match the new bronze, and a 4th bay added for App Luxe.
 - All 4 business sites still use placeholder body copy, sample "brand" tabs on the Sales page (currently "Brand One/Two/Three"), and placeholder photo tiles (dashed boxes) instead of real photos.
 
-**Note on the existing logo files:** the SVGs for pressure-washing/sales-rentals/customs/landing are large (300 KB – 1 MB each) because they were produced by auto-tracing a raster/photorealistic design into thousands of small vector paths, rather than being drawn as clean flat vector art — that's also why they can look "grainy" up close (lots of tiny path segments approximating shading, instead of smooth flat shapes). They render fine in the browser, but if page-load size ever matters, consider re-exporting a simplified flat version or serving a PNG. For App Luxe's logo (still needed), a transparent-background PNG is the recommended format.
+**Open question:** the new Customs logo's tagline reads "Metal Fab & Audio" — dropping the "Upholstery" mention that was on the old logo. The site still has a full Upholstery & Refurbishment page/nav link. Confirm whether that service line is still offered (keep as-is) or has been dropped (remove the page and nav link).
 
 **Still needed:**
 
-1. Logo and color palette for `app-luxe/`.
+1. Confirm Customs' upholstery/refurbishment status (see above).
 2. Real business names/copy, contact info, and photos for each site.
 3. Actual names of the brands represented on the Sales page.
