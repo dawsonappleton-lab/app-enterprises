@@ -7,7 +7,7 @@ Five static websites for the App Enterprises family of businesses.
 - `landing/` — "Dispatch Board" hub page → **app-enterprises.com**. Real design, links to the 4 businesses below.
 - `pressure-washing/` — Home, Gallery, Contact → **app-pressurewashing.com**
 - `sales-consignments-rentals/` — Home, Sales (with subtabs for each represented brand), Consignments, Rentals, Contact → **app-salesrentals.com**
-- `customs/` — Home, Audio, Metal Fab, Upholstery & Refurbishment, Contact → **app-customs.com**
+- `customs/` — Home, Metal Fab, Audio, Contact → **app-customs.com**
 - `app-luxe/` — Home, Gallery, Contact → **app-luxe.com**. Marketing company (brand strategy, campaigns, content).
 
 Each site is plain HTML/CSS/JS with no build step. In this repo they live as sibling folders, but each is meant to be deployed to the root of its own domain above — so cross-site links use the full domain (e.g. the footer "App Enterprises" link points at `https://app-enterprises.com`, not a relative path), while links *within* a site stay relative.
@@ -19,10 +19,9 @@ Each site is plain HTML/CSS/JS with no build step. In this repo they live as sib
 - The landing page keeps its original "Dispatch Board" design/structure as provided, with only its logo image and accent color (`--amber`) updated to match the new bronze, and a 4th bay added for App Luxe.
 - All 4 business sites still use placeholder body copy, sample "brand" tabs on the Sales page (currently "Brand One/Two/Three"), and placeholder photo tiles (dashed boxes) instead of real photos.
 
-**Open question:** the new Customs logo's tagline reads "Metal Fab & Audio" — dropping the "Upholstery" mention that was on the old logo. The site still has a full Upholstery & Refurbishment page/nav link. Confirm whether that service line is still offered (keep as-is) or has been dropped (remove the page and nav link).
+Upholstery & Refurbishment has been dropped as a Customs service line (confirmed) — its page and nav link were removed, and Customs is now down to 4 pages: Home, Metal Fab, Audio, Contact.
 
 **Still needed:**
 
-1. Confirm Customs' upholstery/refurbishment status (see above).
-2. Real business names/copy, contact info, and photos for each site.
-3. Actual names of the brands represented on the Sales page.
+1. Real business names/copy, contact info, and photos for each site.
+2. Actual names of the brands represented on the Sales page.
